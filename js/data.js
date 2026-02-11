@@ -2,7 +2,7 @@ export const products = [
   {
     id: 1,
     name: "Suede-BLK",
-    price: 129.99,
+    price: 4200,
     category: "Casual",
     description: "Feather-light daily trainer with engineered mesh, micro-perf toe box, and high-rebound Pebax midsole for smooth miles.",
     image: "images/aeroflex-runner.svg",
@@ -10,7 +10,7 @@ export const products = [
   {
     id: 2,
     name: "Wickford-BRN",
-    price: 149.99,
+    price: 5200,
     category: "Formal",
     description: "Full-grain leather cupsole sneaker with memory-foam collar, waxed laces, and stitched outsole for all-day wear.",
     image: "images/citystride-leather.svg",
@@ -18,7 +18,7 @@ export const products = [
   {
     id: 3,
     name: "Mandatory-BLK",
-    price: 169.99,
+    price: 4900,
     category: "Boots",
     description: "Waterproof Gore-Tex bootie, 5mm chevron lugs, and rock plate for wet roots, rock gardens, and gravel grinds.",
     image: "images/trailcore-gtx.svg",
@@ -26,7 +26,7 @@ export const products = [
   {
     id: 4,
     name: "Crossway-BRN",
-    price: 109.99,
+    price: 5400,
     category: "Premium",
     description: "4-way stretch knit, wide stabilizing base, and dual-density midsole tuned for squats, jumps, and HIIT flow.",
     image: "images/studioflex-knit.svg",
@@ -34,7 +34,7 @@ export const products = [
   {
     id: 5,
     name: "Polperro Navy",
-    price: 119.99,
+    price: 4500,
     category: "Casual",
     description: "Retro court silhouette with suede overlays, Ortholite footbed, and rubber herringbone traction for city days.",
     image: "images/metrocourt-retro.svg",
@@ -42,7 +42,7 @@ export const products = [
   {
     id: 6,
     name: "Lunenburg Brown",
-    price: 139.99,
+    price: 4800,
     category: "Casual",
     description: "Race-day snap with a composite forefoot plate, nitrogen-infused foam, and decoupled heel for fast transitions.",
     image: "images/sprintvelocity.svg",
@@ -50,7 +50,7 @@ export const products = [
   {
     id: 7,
     name: "Winsor",
-    price: 159.99,
+    price: 5300,
     category: "Boots",
     description: "Vibram-inspired Megagrip rubber, heel brake, and midfoot cage to stay planted on slick switchbacks.",
     image: "images/terragrip-low.svg",
@@ -58,7 +58,7 @@ export const products = [
   {
     id: 8,
     name: "Double Lace Up-Brown",
-    price: 119.99,
+    price: 5600,
     category: "Premium",
     description: "TPU sidewalls for rope climbs, ventilated tongue, and firm heel clip to anchor heavy lifts.",
     image: "images/pulse-trainer-pro.svg",
@@ -66,7 +66,7 @@ export const products = [
   {
     id: 9,
     name: "Oscar-BRN",
-    price: 159.99,
+    price: 5500,
     category: "Formal",
     description: "Classic Oxford design with premium brown leather, sleek profile, and cushioned insole for elegant comfort.",
     image: "images/oscar-brn.svg",
@@ -74,7 +74,7 @@ export const products = [
   {
     id: 10,
     name: "Lucca-BLK",
-    price: 169.99,
+    price: 5800,
     category: "Formal",
     description: "Sophisticated black leather derby with hand-stitched detailing, timeless silhouette for any formal occasion.",
     image: "images/lucca-blk.svg",
@@ -82,7 +82,7 @@ export const products = [
   {
     id: 11,
     name: "Galore-MRN",
-    price: 179.99,
+    price: 5700,
     category: "Boots",
     description: "Premium maroon leather boot with rugged sole, ankle support, and vintage styling for a bold statement.",
     image: "images/galore-mrn.svg",
@@ -90,7 +90,7 @@ export const products = [
   {
     id: 12,
     name: "Monk-BLK",
-    price: 189.99,
+    price: 5900,
     category: "Premium",
     description: "Elegant black monk strap shoe with double buckle closure, polished leather, and refined craftsmanship.",
     image: "images/monk-blk.svg",

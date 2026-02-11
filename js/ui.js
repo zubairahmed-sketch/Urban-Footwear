@@ -24,7 +24,7 @@ export function renderProducts(container, products, onCardClick, onAdd) {
       <img src="${p.image}" alt="${p.name}" loading="lazy" onerror="this.onerror=null;this.src='${fallbackImage}'" />
       <h3>${p.name}</h3>
       <p>${p.description}</p>
-      <p class="price">$${p.price.toFixed(2)}</p>
+      <p class="price">Rs. ${p.price.toLocaleString()}</p>
       <button class="add-to-cart-btn" data-id="${p.id}">Add to Cart</button>
     </article>
   `).join("");
@@ -50,7 +50,7 @@ export function renderCarousel(track, data, onAdd, onShowDetail) {
         <h3>${p.name}</h3>
         <p class="product-category">${p.category}</p>
         <p class="product-description">${p.description}</p>
-        <p class="product-price">$${p.price.toFixed(2)}</p>
+        <p class="product-price">Rs. ${p.price.toLocaleString()}</p>
         <button class="add-to-cart-btn" data-id="${p.id}">Add to Cart</button>
       </div>
     </div>
@@ -74,7 +74,7 @@ export function renderCart(container, cart, onUpdate, onRemove) {
       <img src="${item.image}" alt="${item.name}" onerror="this.onerror=null;this.src='${fallbackImage}'" />
       <div class="content">
         <h3>${item.name}</h3>
-        <span class="price">$${item.price.toFixed(2)}</span>
+        <span class="price">Rs. ${item.price.toLocaleString()}</span>
         <div class="quantity-control">
           <button class="decrease">-</button>
           <span class="quantity">${item.quantity}</span>
@@ -94,7 +94,7 @@ export function renderCart(container, cart, onUpdate, onRemove) {
 }
 
 export function updateCartSummary(totalEl, countEl, cart) {
-  totalEl.textContent = `Total: $${cartTotal(cart).toFixed(2)}`;
+  totalEl.textContent = `Total: Rs. ${cartTotal(cart).toLocaleString()}`;
   const count = cartCount(cart);
   if (count > 0) {
     countEl.textContent = count;

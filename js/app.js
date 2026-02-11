@@ -168,7 +168,7 @@ function showDetail(id) {
   els.detailImage.innerHTML = `<img src="${product.image}" alt="${product.name}" loading="lazy" onerror="this.onerror=null;this.src='${fallbackImage}'" />`;
   els.detailInfo.querySelector("h1").textContent = product.name;
   els.detailInfo.querySelector(".detail-description").textContent = product.description;
-  els.detailInfo.querySelector(".detail-price").textContent = `$${product.price.toFixed(2)}`;
+  els.detailInfo.querySelector(".detail-price").textContent = `Rs. ${product.price.toLocaleString()}`;
   els.detailAddBtn.onclick = () => addProduct(id);
   renderDetailReviews(id);
   setHidden(els.detailOverlay, false);
