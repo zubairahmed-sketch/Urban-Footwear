@@ -1,6 +1,6 @@
 import { cartCount, cartTotal } from "./cart.js";
 
-export const fallbackImage = "images/fallback-image.svg";
+export const fallbackImage = "images/Suede-BLK.jpg";
 
 export function qs(sel, root = document) { return root.querySelector(sel); }
 export function qsa(sel, root = document) { return Array.from(root.querySelectorAll(sel)); }

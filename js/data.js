@@ -5,7 +5,7 @@ export const products = [
     price: 4200,
     category: "Casual",
     description: "Feather-light daily trainer with engineered mesh, micro-perf toe box, and high-rebound Pebax midsole for smooth miles.",
-    image: "images/aeroflex-runner.svg",
+    image: "images/Suede-BLK.jpg",
   },
   {
     id: 2,
@@ -13,7 +13,7 @@ export const products = [
     price: 5200,
     category: "Formal",
     description: "Full-grain leather cupsole sneaker with memory-foam collar, waxed laces, and stitched outsole for all-day wear.",
-    image: "images/citystride-leather.svg",
+    image: "images/Wickford-BRN.jpg",
   },
   {
     id: 3,
@@ -21,7 +21,7 @@ export const products = [
     price: 4900,
     category: "Boots",
     description: "Waterproof Gore-Tex bootie, 5mm chevron lugs, and rock plate for wet roots, rock gardens, and gravel grinds.",
-    image: "images/trailcore-gtx.svg",
+    image: "images/Mandatory-BLK.jpg",
   },
   {
     id: 4,
@@ -29,7 +29,7 @@ export const products = [
     price: 5400,
     category: "Premium",
     description: "4-way stretch knit, wide stabilizing base, and dual-density midsole tuned for squats, jumps, and HIIT flow.",
-    image: "images/studioflex-knit.svg",
+    image: "images/Crossway-BRN.jpg",
   },
   {
     id: 5,
@@ -37,7 +37,7 @@ export const products = [
     price: 4500,
     category: "Casual",
     description: "Retro court silhouette with suede overlays, Ortholite footbed, and rubber herringbone traction for city days.",
-    image: "images/metrocourt-retro.svg",
+    image: "images/Polperro Navy.jpg",
   },
   {
     id: 6,
@@ -45,7 +45,7 @@ export const products = [
     price: 4800,
     category: "Casual",
     description: "Race-day snap with a composite forefoot plate, nitrogen-infused foam, and decoupled heel for fast transitions.",
-    image: "images/sprintvelocity.svg",
+    image: "images/Lunenburg Brown.jpg",
   },
   {
     id: 7,
@@ -53,7 +53,7 @@ export const products = [
     price: 5300,
     category: "Boots",
     description: "Vibram-inspired Megagrip rubber, heel brake, and midfoot cage to stay planted on slick switchbacks.",
-    image: "images/terragrip-low.svg",
+    image: "images/Winsor.jpg",
   },
   {
     id: 8,
@@ -61,7 +61,7 @@ export const products = [
     price: 5600,
     category: "Premium",
     description: "TPU sidewalls for rope climbs, ventilated tongue, and firm heel clip to anchor heavy lifts.",
-    image: "images/pulse-trainer-pro.svg",
+    image: "images/Double Lace Up-Brown.jpg",
   },
   {
     id: 9,
@@ -69,7 +69,7 @@ export const products = [
     price: 5500,
     category: "Formal",
     description: "Classic Oxford design with premium brown leather, sleek profile, and cushioned insole for elegant comfort.",
-    image: "images/oscar-brn.svg",
+    image: "images/Oscar-BRN.jpg",
   },
   {
     id: 10,
@@ -77,7 +77,7 @@ export const products = [
     price: 5800,
     category: "Formal",
     description: "Sophisticated black leather derby with hand-stitched detailing, timeless silhouette for any formal occasion.",
-    image: "images/lucca-blk.svg",
+    image: "images/Lucca-BLK.jpg",
   },
   {
     id: 11,
@@ -85,7 +85,7 @@ export const products = [
     price: 5700,
     category: "Boots",
     description: "Premium maroon leather boot with rugged sole, ankle support, and vintage styling for a bold statement.",
-    image: "images/galore-mrn.svg",
+    image: "images/Galore-MRN.jpg",
   },
   {
     id: 12,
@@ -93,7 +93,7 @@ export const products = [
     price: 5900,
     category: "Premium",
     description: "Elegant black monk strap shoe with double buckle closure, polished leather, and refined craftsmanship.",
-    image: "images/monk-blk.svg",
+    image: "images/Monk-BLK.jpg",
   },
 ];
 
