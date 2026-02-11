@@ -19,7 +19,7 @@ export const features = [
 export const products = [
   {
     id: 1,
-    name: "AeroFlex Runner",
+    name: "Suede-BLK",
     price: 129.99,
     category: "Casual",
     description: "Feather-light daily trainer with engineered mesh, micro-perf toe box, and high-rebound Pebax midsole for smooth miles.",
@@ -27,7 +27,7 @@ export const products = [
   },
   {
     id: 2,
-    name: "CityStride Leather",
+    name: "Wickford-BRN",
     price: 149.99,
     category: "Formal",
     description: "Full-grain leather cupsole sneaker with memory-foam collar, waxed laces, and stitched outsole for all-day wear.",
@@ -35,7 +35,7 @@ export const products = [
   },
   {
     id: 3,
-    name: "TrailCore GTX",
+    name: "Mandatory-BLK",
     price: 169.99,
     category: "Boots",
     description: "Waterproof Gore-Tex bootie, 5mm chevron lugs, and rock plate for wet roots, rock gardens, and gravel grinds.",
@@ -43,15 +43,15 @@ export const products = [
   },
   {
     id: 4,
-    name: "StudioFlex Knit",
+    name: "Crossway-BRN",
     price: 109.99,
-    category: "Affordable",
+    category: "Premium",
     description: "4-way stretch knit, wide stabilizing base, and dual-density midsole tuned for squats, jumps, and HIIT flow.",
     image: "images/studioflex-knit.svg",
   },
   {
     id: 5,
-    name: "MetroCourt Retro",
+    name: "Polperro Navy",
     price: 119.99,
     category: "Casual",
     description: "Retro court silhouette with suede overlays, Ortholite footbed, and rubber herringbone traction for city days.",
@@ -59,7 +59,7 @@ export const products = [
   },
   {
     id: 6,
-    name: "SprintVelocity",
+    name: "Lunenburg Brown",
     price: 139.99,
     category: "Casual",
     description: "Race-day snap with a composite forefoot plate, nitrogen-infused foam, and decoupled heel for fast transitions.",
@@ -67,7 +67,7 @@ export const products = [
   },
   {
     id: 7,
-    name: "TerraGrip Low",
+    name: "Winsor",
     price: 159.99,
     category: "Boots",
     description: "Vibram-inspired Megagrip rubber, heel brake, and midfoot cage to stay planted on slick switchbacks.",
@@ -75,11 +75,43 @@ export const products = [
   },
   {
     id: 8,
-    name: "Pulse Trainer Pro",
+    name: "Double Lace Up-Brown",
     price: 119.99,
-    category: "Affordable",
+    category: "Premium",
     description: "TPU sidewalls for rope climbs, ventilated tongue, and firm heel clip to anchor heavy lifts.",
     image: "images/pulse-trainer-pro.svg",
+  },
+  {
+    id: 9,
+    name: "Oscar-BRN",
+    price: 159.99,
+    category: "Formal",
+    description: "Classic Oxford design with premium brown leather, sleek profile, and cushioned insole for elegant comfort.",
+    image: "images/oscar-brn.svg",
+  },
+  {
+    id: 10,
+    name: "Lucca-BLK",
+    price: 169.99,
+    category: "Formal",
+    description: "Sophisticated black leather derby with hand-stitched detailing, timeless silhouette for any formal occasion.",
+    image: "images/lucca-blk.svg",
+  },
+  {
+    id: 11,
+    name: "Galore-MRN",
+    price: 179.99,
+    category: "Boots",
+    description: "Premium maroon leather boot with rugged sole, ankle support, and vintage styling for a bold statement.",
+    image: "images/galore-mrn.svg",
+  },
+  {
+    id: 12,
+    name: "Monk-BLK",
+    price: 189.99,
+    category: "Premium",
+    description: "Elegant black monk strap shoe with double buckle closure, polished leather, and refined craftsmanship.",
+    image: "images/monk-blk.svg",
   },
 ];
 

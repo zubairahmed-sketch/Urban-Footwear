@@ -1,0 +1,39 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="oscar-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B4513;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5D3A1A;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="#f5f5f5"/>
+  <!-- Oxford shoe body -->
+  <ellipse cx="200" cy="175" rx="85" ry="38" fill="url(#oscar-grad)"/>
+  <!-- Toe cap -->
+  <path d="M 285 175 Q 320 155 340 165 Q 325 195 285 185 Z" fill="#5D3A1A"/>
+  <!-- Heel counter -->
+  <path d="M 115 175 Q 85 160 70 170 Q 80 190 115 185 Z" fill="#5D3A1A"/>
+  <!-- Oxford lacing panel -->
+  <rect x="170" y="150" width="60" height="35" fill="#6B4423" rx="3"/>
+  <!-- Lace eyelets -->
+  <g fill="#333">
+    <circle cx="180" cy="160" r="3"/>
+    <circle cx="220" cy="160" r="3"/>
+    <circle cx="180" cy="172" r="3"/>
+    <circle cx="220" cy="172" r="3"/>
+  </g>
+  <!-- Laces -->
+  <g stroke="#2d2d2d" stroke-width="2" fill="none">
+    <path d="M 180 160 L 220 160"/>
+    <path d="M 180 172 L 220 172"/>
+    <path d="M 185 160 L 215 172"/>
+  </g>
+  <!-- Stitching details -->
+  <ellipse cx="200" cy="175" rx="80" ry="33" fill="none" stroke="#4A3520" stroke-width="1" stroke-dasharray="4,3"/>
+  <!-- Sole -->
+  <ellipse cx="200" cy="205" rx="90" ry="12" fill="#1a1a1a"/>
+  <!-- Heel -->
+  <rect x="100" y="200" width="40" height="15" fill="#1a1a1a" rx="2"/>
+  <!-- Text label -->
+  <text x="200" y="50" text-anchor="middle" font-size="24" font-weight="bold" fill="#333">Oscar-BRN</text>
+  <text x="200" y="75" text-anchor="middle" font-size="14" fill="#666">Formal</text>
+</svg>
