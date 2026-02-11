@@ -1,4 +1,4 @@
-# The Urban Store
+# The Urban Footwear
 
 <p align="center">
   <strong>A Modern E-Commerce Footwear Store</strong>
@@ -14,7 +14,7 @@
 
 ## 📖 Overview
 
-**The Urban Store** is a sleek, responsive e-commerce storefront specializing in premium footwear. Built with vanilla HTML, CSS, and JavaScript — no frameworks or build tools required. The store features a curated collection of casual, formal, boots, and premium footwear with an intuitive shopping experience.
+**The Urban Footwear** is a sleek, responsive e-commerce storefront specializing in premium footwear. Built with vanilla HTML, CSS, and JavaScript — no frameworks or build tools required. The store features a curated collection of casual, formal, boots, and premium footwear with an intuitive shopping experience.
 
 ---
 
