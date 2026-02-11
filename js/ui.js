@@ -5,17 +5,6 @@ export const fallbackImage = "images/fallback-image.svg";
 export function qs(sel, root = document) { return root.querySelector(sel); }
 export function qsa(sel, root = document) { return Array.from(root.querySelectorAll(sel)); }
 
-export function renderFeatures(container, data) {
-  container.innerHTML = data.map((f) => `
-    <article class="feature-card">
-      <img src="${f.image}" alt="${f.title}" loading="lazy" onerror="this.onerror=null;this.src='${fallbackImage}'" />
-      <h3>${f.title}</h3>
-      <p>${f.description}</p>
-      <button class="btn">read more</button>
-    </article>
-  `).join("");
-}
-
 export function renderCategories(container, data, activeCategory, onSelect) {
   container.innerHTML = data.map((cat) => `
     <button class="${cat === activeCategory ? "active" : ""}" data-category="${cat}">${cat}</button>

@@ -1,21 +1,3 @@
-export const features = [
-  {
-    title: "High Performance",
-    description: "Engineered for comfort and durability, perfect for sports and daily use.",
-    image: "images/feature-performance.svg",
-  },
-  {
-    title: "Modern Style",
-    description: "Stay trendy with designs that blend fashion and functionality seamlessly.",
-    image: "images/feature-style.svg",
-  },
-  {
-    title: "Innovative Comfort",
-    description: "Advanced cushioning and breathable materials for all-day ease.",
-    image: "images/feature-comfort.svg",
-  },
-];
-
 export const products = [
   {
     id: 1,

@@ -1,8 +1,7 @@
-import { features, products, featuredProducts, reviews as seedReviews } from "./data.js";
+import { products, featuredProducts, reviews as seedReviews } from "./data.js";
 import { addToCart, updateQuantity, removeFromCart, loadCart, saveCart, clearCart } from "./cart.js";
 import {
   qs,
-  renderFeatures,
   renderCategories,
   renderProducts,
   renderCarousel,
@@ -32,7 +31,6 @@ const els = {
   signupForm: qs(".signup-form"),
   linkSignup: qs(".link-signup"),
   linkLogin: qs(".link-login"),
-  featuresGrid: qs("#features-grid"),
   categoryNav: qs(".category-options"),
   productGrid: qs(".product-grid"),
   carouselTrack: qs(".carousel-track"),
@@ -123,10 +121,6 @@ function refreshCartUI() {
 function persistCart() {
   saveCart(cart);
   refreshCartUI();
-}
-
-function initFeatures() {
-  renderFeatures(els.featuresGrid, features);
 }
 
 function initCategories() {
@@ -255,7 +249,6 @@ function init() {
   setHidden(els.detailOverlay, true);
   setHidden(els.checkoutOverlay, true);
   setHidden(els.thankYou, true);
-  initFeatures();
   initCategories();
   initCarousel();
   initReviews();
