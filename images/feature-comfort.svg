@@ -1,0 +1,31 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="comfort-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#06D6A0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#118A7E;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="#f5f5f5"/>
+  <!-- Comfortable cushioned shoe -->
+  <ellipse cx="200" cy="165" rx="80" ry="40" fill="url(#comfort-grad)"/>
+  <!-- Cushioning indicators -->
+  <g fill="#06D6A0" opacity="0.6">
+    <ellipse cx="170" cy="170" rx="12" ry="8"/>
+    <ellipse cx="200" cy="175" rx="14" ry="10"/>
+    <ellipse cx="230" cy="170" rx="12" ry="8"/>
+  </g>
+  <!-- Breathable mesh pattern -->
+  <g stroke="#fff" stroke-width="1.5" opacity="0.7">
+    <circle cx="190" cy="155" r="3"/>
+    <circle cx="210" cy="155" r="3"/>
+    <circle cx="175" cy="170" r="3"/>
+    <circle cx="225" cy="170" r="3"/>
+    <circle cx="190" cy="185" r="3"/>
+    <circle cx="210" cy="185" r="3"/>
+  </g>
+  <!-- Sole with cushioning -->
+  <ellipse cx="200" cy="210" rx="85" ry="18" fill="#118A7E"/>
+  <ellipse cx="200" cy="206" rx="80" ry="6" fill="#06D6A0" opacity="0.5"/>
+  <text x="200" y="100" text-anchor="middle" font-size="28" font-weight="bold" fill="#118A7E">☁️</text>
+  <text x="200" y="230" text-anchor="middle" font-size="18" font-weight="bold" fill="#333">Innovative Comfort</text>
+</svg>

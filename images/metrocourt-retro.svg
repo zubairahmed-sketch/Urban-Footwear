@@ -1,0 +1,33 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F57C00;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E65100;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="#f5f5f5"/>
+  <!-- Shoe body -->
+  <ellipse cx="200" cy="180" rx="80" ry="40" fill="url(#grad4)"/>
+  <!-- Suede overlays -->
+  <ellipse cx="200" cy="170" rx="65" ry="28" fill="#BF360C"/>
+  <rect x="160" y="175" width="30" height="20" fill="#BF360C" rx="3"/>
+  <rect x="210" y="175" width="30" height="20" fill="#BF360C" rx="3"/>
+  <!-- Court silhouette trim -->
+  <circle cx="200" cy="180" r="50" fill="none" stroke="#D84315" stroke-width="2" opacity="0.5"/>
+  <!-- Toe box -->
+  <path d="M 280 180 Q 305 155 320 165 Q 310 195 280 190 Z" fill="#BF360C"/>
+  <!-- Heel and ankle collar -->
+  <ellipse cx="200" cy="140" rx="70" ry="25" fill="#FF6F00" opacity="0.7"/>
+  <!-- Herringbone traction indicator -->
+  <g stroke="#333" stroke-width="1.5" opacity="0.4">
+    <line x1="140" y1="210" x2="160" y2="220"/>
+    <line x1="170" y1="210" x2="190" y2="220"/>
+    <line x1="210" y1="210" x2="230" y2="220"/>
+    <line x1="240" y1="210" x2="260" y2="220"/>
+  </g>
+  <!-- Sole -->
+  <ellipse cx="200" cy="210" rx="85" ry="15" fill="#2d2d2d"/>
+  <!-- Text label -->
+  <text x="200" y="50" text-anchor="middle" font-size="24" font-weight="bold" fill="#333">MetroCourt Retro</text>
+  <text x="200" y="75" text-anchor="middle" font-size="14" fill="#666">Lifestyle</text>
+</svg>
